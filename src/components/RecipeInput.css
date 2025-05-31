@@ -1,0 +1,63 @@
+.input-wrapper {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-box {
+  flex: 1;
+  padding: 14px 20px;
+  font-size: 16px;
+  border-radius: 20px;
+  border: 2px solid #eb9fa3;
+  background-color: #fff;
+  width: 70%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  outline: none;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  color: #333;
+}
+
+/* On focus */
+.input-box:focus {
+  border-color: #0a89a7;
+  box-shadow: 0 0 8px rgba(10, 137, 167, 0.3);
+  background-color: #fefefe;
+}
+
+/* On hover */
+.input-box:hover {
+  background-color: #fffdf9;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+}
+
+
+.cook-btn {
+  padding: 14px 24px;
+  background-color: #0a89a7;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover effect */
+.cook-btn:hover {
+  background-color: #07607b;
+  transform: scale(1.05);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+/* Click (active) effect */
+.cook-btn:active {
+  transform: scale(0.95);
+  background-color: #054c60;
+}
